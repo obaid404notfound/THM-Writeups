@@ -1,7 +1,5 @@
 # TryHackMe: W1seGuy — Writeup
 
-*Based on the original writeup by 0xb0b (CC BY 4.0): https://0xb0b.gitbook.io/writeups/tryhackme/2024/w1seguy*
-
 ## Overview
 
 This room is a crypto challenge. We're given a `source.py` file plus a live service on port `1337`. The goal: figure out the encryption key and use it to reconstruct the flag.
@@ -153,8 +151,7 @@ Running the script against the hex blob the service sends us recovers both the k
 ## Getting Flag 2
 
 Submit that recovered key back to the service, and it hands over the second flag as a reward for guessing it correctly.
-
-## Worth Checking Out
+.
 
 There's also a cleaner solve using `pwntools` by Jaxafed, if you want to see the same idea automated more tightly:
 https://jaxafed.github.io/posts/tryhackme-w1seguy/
