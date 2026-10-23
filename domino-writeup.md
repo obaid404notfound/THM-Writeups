@@ -403,4 +403,4 @@ cat /root/root.txt
 
 ---
 
-*Flags: 5/5 · Root achieved · [TOTAL_TIME_IF_KNOWN]*
+*Flags: 5/5 · Root achieved · [1 Hour 30 Mins]*
